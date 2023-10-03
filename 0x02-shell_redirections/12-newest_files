@@ -1,2 +1,2 @@
 #!/bin/bash
-d -not -name '.' -not -name '..' | wc -l
+ls -t | head -n 10
